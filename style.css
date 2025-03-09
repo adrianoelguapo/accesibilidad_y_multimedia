@@ -460,6 +460,14 @@ iframe{
     .tour-date{
       width: 1rem;
     }
+
+    .tour-month{
+        font-size: 1.5rem;
+    }
+
+    .tour-day{
+        font-size: 5rem;
+    }
     
     .tickets-button{
       padding: 0.5rem 1rem;
@@ -468,4 +476,3 @@ iframe{
       width: auto;
     }
 }
-   
