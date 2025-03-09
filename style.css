@@ -6,7 +6,7 @@
     body{
         background-image: url("images/bg.png");
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
     }
     
     body.index-body{
@@ -176,20 +176,20 @@ footer img:hover{
 }
 
 @media (max-width: 576px) {
-    footer {
+    footer{
         padding: 0.75rem 0;
     }
 
-    footer .footer {
+    footer .footer{
         font-size: 1rem;
         margin: 0.5rem;
     }
 
-    footer .footer a {
+    footer .footer a{
         margin: 0 1rem;
     }
 
-    footer img {
+    footer img{
         width: 1.5rem;
         margin: 0 0.25rem;
     }
@@ -336,7 +336,7 @@ iframe{
     transform: scale(1.05);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px){
     .music-up-section{
         padding-bottom: 10%;
     }
@@ -349,6 +349,36 @@ iframe{
 
     .music-down-section{
         padding-top: 10%;
-      flex-direction: column !important;
+        flex-direction: column !important;
     }
+}
+
+/* --- Estilos para la página de la Tienda (shop.html) --- */
+.shop-main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+}
+
+.shop-item{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.shop-item:hover{
+    transform: scale(1.1);
+}
+
+.shop-item-desc,
+.shop-item-price{
+    margin-top: -5%;
 }
