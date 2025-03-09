@@ -13,6 +13,11 @@
         background-image: url("images/future.jpeg");
         background-size: cover;
     }
+
+    body.bio-body{
+        background-image: url("images/bg-bio.jpeg");
+        background-size: cover;
+    }
 }
 
 @media (max-width: 991px){
@@ -24,13 +29,6 @@
 
     body.index-body{
         background-image: url("images/future-cropped.jpeg") !important;
-    }
-}
-
-@media (min-width: 768px){
-    body.bio-body{
-        background-image: url("images/bg-bio.jpeg");
-        background-size: cover;
     }
 }
 
@@ -258,12 +256,15 @@ footer img:hover{
 @media (max-width: 991px){
     .bio-content{
         margin-left: 5%;
+        margin-top: -15%;
         font-size: 20px;
         width: 95%;
         text-align: center;
     }
 
     .bio-title{
-
+        margin-left: 15%;
+        border-left: 6px solid #8A322B;
+        height: 9%;
     }
 }
