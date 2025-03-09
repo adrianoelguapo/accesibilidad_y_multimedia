@@ -258,15 +258,15 @@ footer img:hover{
 @media (max-width: 991px){
     .bio-content{
         margin-left: 5%;
-        margin-top: -15%;
+        margin-top: -35%;
         font-size: 20px;
         width: 95%;
         text-align: center;
     }
 
     .bio-title{
-        margin-left: 15%;
+        margin-left: 20%;
         border-left: 6px solid #8A322B;
-        height: 9%;
+        height: 8%;
     }
 }
