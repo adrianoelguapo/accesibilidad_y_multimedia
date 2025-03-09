@@ -25,10 +25,12 @@
         background-repeat: no-repeat;
         background-size: cover !important;
         background-image: url("images/bg.png");
+        background-position: center;
     }
 
     body.index-body{
         background-image: url("images/future-cropped.jpeg") !important;
+        background-position: center;
     }
 }
 
