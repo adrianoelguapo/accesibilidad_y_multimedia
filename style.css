@@ -274,17 +274,19 @@ footer img:hover{
 
 /* --- Estilos para la página de Música (music.html) --- */
 .music-main{
-    height: 79.1vh;
+    height: auto;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .music-up-section{
     border-bottom: solid 1px gray;
-    height: 40%;
+    padding-bottom: 2.5%;
+    padding-top: 1.5%;
 }
 
 .music-up-section-title,
@@ -304,6 +306,16 @@ footer img:hover{
     font-size: 30px;
 }
 
+iframe{
+    height: 100%;
+    width: 65%;
+    margin-top: -5%;
+}
+
+.music-down-section{
+    padding-top: 3.5%;
+}
+
 .music-album-name{
     font-family: "Timmana", sans-serif;
     font-weight: 400;
@@ -311,5 +323,32 @@ footer img:hover{
     color: white;
     margin-top: 5%;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.music-album-photo{
+    width: 40%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.music-album-photo:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 991px) {
+    .music-up-section{
+        padding-bottom: 10%;
+    }
+
+    iframe{
+        margin-top: 5%;
+        width: 80%;
+        height: 100%;
+    }
+
+    .music-down-section{
+        padding-top: 10%;
+      flex-direction: column !important;
+    }
 }
