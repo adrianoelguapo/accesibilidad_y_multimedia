@@ -16,10 +16,21 @@
 }
 
 @media (max-width: 991px){
-    body {
+    body{
         background-repeat: no-repeat;
-        background-image: url("images/future-cropped.jpeg") !important;
         background-size: cover !important;
+        background-image: url("images/bg.png");
+    }
+
+    body.index-body{
+        background-image: url("images/future-cropped.jpeg") !important;
+    }
+}
+
+@media (min-width: 768px){
+    body.bio-body{
+        background-image: url("images/bg-bio.jpeg");
+        background-size: cover;
     }
 }
 
@@ -187,7 +198,7 @@ footer img:hover{
 
 /* --- Estilos para la página de Inicio (index.html) --- */
 .index-main{
-    height: 80vh;
+    height: 79.1vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -208,5 +219,51 @@ footer img:hover{
 @media (max-width: 991px){
     .index-title{
         font-size: 3.125rem;
+    }
+}
+
+/* --- Estilos para la página de la biografía (bio.html) --- */
+.bio-main{
+    height: 79.1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bio-content{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: -6%;
+}
+
+.bio-title{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    border-left: 8px solid #8A322B;
+    text-align: left;
+    margin-left: 6.5%;
+    margin-top: 2%;
+    height: 10%;
+}
+
+@media (max-width: 991px){
+    .bio-content{
+        margin-left: 5%;
+        font-size: 20px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .bio-title{
+
     }
 }
