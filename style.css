@@ -24,13 +24,17 @@
 }
 
 /* --- Estilos para la cabecera --- */
+.navbar{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
 .navbar-brand{
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
     text-transform: uppercase;
-    margin-left: 5%;
+    margin-left: 1.5%;
     font-size: 30px;
     transition: all 0.3s;
 }
@@ -41,7 +45,7 @@
 }
 
 .offcanvas-title{
-    margin-left: 32.25%;
+    margin-left: 34%;
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -74,21 +78,25 @@
         backdrop-filter: blur(15px);
     }
 
-    .navbar-toggler-icon.color{
+    .navbar-toggler-icon{
         filter: invert(1);
     }
 
     .nav-link{
         font-size: 20px;
     }
+
+    .index-title{
+        font-size: 70px !important;
+    }
+    
+    .offcanvas-title{
+        font-size: 30px;
+        margin-left: 27%;
+    }
 }
 
 @media (min-width: 992px){
-    .navbar{
-        background-color: rgb(0, 0, 0, 0.4);
-        backdrop-filter: blur(15px);
-    }
-
     .offcanvas{
         position: static;
         transform: none;
@@ -180,6 +188,7 @@ footer img:hover{
 /* --- Estilos para la página de Inicio (index.html) --- */
 .index-main{
     height: 80vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
