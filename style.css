@@ -385,6 +385,77 @@ iframe{
     margin-top: -5%;
 }
 
+/* --- Estilos para la página de cada producto (clothes-X.html) --- */
+.clothes-main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    font-style: italic;
+}
+
+.clothes-left-section{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.clothes-right-section{
+    color: white;
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clothes-title{
+    font-size: 38px;
+}
+
+.clothes-desc{
+    font-size: 24px;
+}
+
+.add-button{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #8a322b;
+    border-radius: 5px;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+}
+
+.add-button:hover{
+    transform: scale(1.05);
+    color: #8a322b;
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width: 991px){
+    .clothes-title{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 576px){
+    .clothes-title{
+        font-size: 30px;
+    }
+
+    .clothes-desc{
+        font-size: 20px;
+    }
+}
+
 /* --- Estilos para la página de Tour (tour.html) --- */
 .tour-main{
     height: auto;
@@ -445,7 +516,7 @@ iframe{
     background-color: rgb(221, 221, 221);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px){
     .tour-main .row{
       flex-direction: column !important;
       text-align: center;
