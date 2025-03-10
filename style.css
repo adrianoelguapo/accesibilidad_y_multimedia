@@ -329,7 +329,7 @@ iframe{
 }
 
 .music-album-photo{
-    width: 40%;
+    width: 50%;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -345,13 +345,17 @@ iframe{
 
     iframe{
         margin-top: 5%;
-        width: 80%;
-        height: 100%;
+        width: 17.5rem;
+        height: 11rem;
     }
 
     .music-down-section{
         padding-top: 10%;
         flex-direction: column !important;
+    }
+
+    .music-album-photo{
+        width: 80%;
     }
 }
 
