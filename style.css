@@ -327,11 +327,11 @@ iframe{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    width: 80%;
 }
 
 .music-album{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 30%;
+    width: 20rem;
     border-radius: 5px;
 }
 
