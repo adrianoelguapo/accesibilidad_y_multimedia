@@ -307,6 +307,7 @@ footer img:hover{
 .music-up-section-title{
     color: white;
     font-size: 45px;
+    width: 40%;
 }
 
 .music-up-section-desc{
@@ -315,8 +316,8 @@ footer img:hover{
 }
 
 iframe{
-    height: 15rem;
-    width: 25rem;
+    height: 20rem;
+    width: 35rem;
     margin-top: -5%;
 }
 
@@ -351,8 +352,14 @@ iframe{
 
     iframe{
         margin-top: 5%;
-        width: 17.5rem;
-        height: 11rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .music-up-section-title,
+    .music-up-section-desc{
+        width: 100%;
+        text-align: center;
     }
 
     .music-down-section{
