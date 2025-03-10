@@ -394,7 +394,24 @@ iframe{
     font-family: "Timmana", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-variant: small-caps;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #8a322b;
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+}
+
+.track-button:hover{
+    transform: scale(1.05);
+    color: #8a322b;
+    background-color: rgb(221, 221, 221);
+}
+
+.album-cover{
+    width: 20rem;
 }
 
 /* --- Estilos para la página de la Tienda (shop.html) --- */
