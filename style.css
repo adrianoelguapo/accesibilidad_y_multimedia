@@ -575,7 +575,7 @@ iframe{
     align-items: center;
 }
 
-h2.tour-dat{
+h2.tour-day{
     margin: 0;
     font-size: 1.5rem;
     font-weight: bold; 
@@ -641,7 +641,7 @@ h2.tour-dat{
     }
 
     .tour-day{
-        font-size: 5rem;
+        font-size: 5rem !important;
     }
     
     .tickets-button{
