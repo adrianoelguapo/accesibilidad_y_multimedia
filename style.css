@@ -199,7 +199,7 @@ footer img:hover{
 
 /* --- Estilos para la página de Inicio (index.html) --- */
 .index-main{
-    height: 79.1vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -573,6 +573,12 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h2.tour-dat{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold; 
 }
 
 .tour-date-location{
