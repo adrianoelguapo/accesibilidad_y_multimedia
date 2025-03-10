@@ -102,6 +102,5 @@ Amplitude.init({
         "url": "audio/Future, Metro Boomin - Where My Twin @ (Bonus - Official Audio).mp3",
         "cover_art_url": "images/wdty.jpg"
       }
-    ]
-  });
-  
+  ]
+});  
