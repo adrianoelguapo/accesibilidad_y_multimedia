@@ -302,6 +302,7 @@ footer img:hover{
     font-family: "Timmana", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 40%;
 }
 
 .music-up-section-title{
@@ -370,6 +371,30 @@ iframe{
     .music-album-photo{
         width: 80%;
     }
+}
+
+/* --- Estilos para las páginas de los álbumes --- */
+.track-info{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.track-title{
+    font-size: 35px;
+    font-variant: small-caps;
+}
+
+.track-artist{
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+.track-button{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
 }
 
 /* --- Estilos para la página de la Tienda (shop.html) --- */
