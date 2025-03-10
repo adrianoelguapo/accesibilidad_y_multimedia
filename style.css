@@ -511,7 +511,8 @@ iframe{
 
 /* --- Estilos para la página de cada producto (clothes-X.html) --- */
 .clothes-main{
-    height: auto;
+    flex: 1;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
