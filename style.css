@@ -74,7 +74,7 @@
       "YROT" 0;
     color: white;
     transition: all 0.3s;
-    font-size: 28px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -308,7 +308,6 @@ footer img:hover{
 .music-up-section-title{
     color: white;
     font-size: 45px;
-    width: 40%;
 }
 
 .music-up-section-desc{
@@ -323,7 +322,17 @@ iframe{
 }
 
 .music-down-section{
-    padding-top: 3.5%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.music-album{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    border-radius: 5px;
 }
 
 .music-album-name{
@@ -374,6 +383,28 @@ iframe{
 }
 
 /* --- Estilos para las páginas de los álbumes --- */
+.music-player-container{
+    display: flex;
+    justify-content: center;
+}
+
+.music-player{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    border-radius: 5px;
+}
+
+.album-title{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-variant: small-caps;
+}
+
+
 .track-info{
     font-family: "Timmana", sans-serif;
     font-weight: 400;
